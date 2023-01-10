@@ -5,6 +5,8 @@
 
 [link](https://ya-praktic.netlify.app/)
 
+Тут не работает ссылки, на локалке работает с expresы и parcel
+
 ### UI
  [Figma design](https://www.figma.com/file/0iDa39bg5KGv6x05btygbv/Yandex.Practicum-Messenger)
 
@@ -21,9 +23,9 @@ nodejs 16.18.1 LTS
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# run with parcel localhost:3000
 $ npm run start
 
-# run with expressJs
+# run with express localhost:3000
 npm run server
 
