@@ -1,6 +1,7 @@
 import SignInPage from "./componets/pages/signIn";
 import SignUpPage from "./componets/pages/signUp";
-import ErrorPage from "./componets/pages/error";
+import ErrorPage from "./componets/pages/error404";
+import Error500Page from "./componets/pages/error500";
 import MessagesPage from "./componets/pages/messages";
 import ProfilePage from "./componets/pages/profile";
 
@@ -23,6 +24,12 @@ export default () => {
     }
     if (path === '/profile') {
         return ProfilePage({data: 'data'});
+    }
+    if (path === '/error404') {
+        return ErrorPage({data: 'data'});
+    }
+    if (path === '/error500') {
+        return Error500Page({data: 'data'});
     }
 
     return ErrorPage({data: 'Где я?'})

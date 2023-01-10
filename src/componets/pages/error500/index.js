@@ -1,6 +1,4 @@
-import tpl from './_partials/tpl';
-import('./_partials/style.scss');
-
+import tpl from './_partials/tpl'
 export default (props) => {
     console.log({ tpl, props });
     return tpl;

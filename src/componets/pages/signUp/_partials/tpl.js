@@ -1,6 +1,6 @@
 export default
-`<form class="login">
-    <div class="login__header">Регистрация </div>
+`<form class="form login">
+    <div class="login__header"><h1>Регистрация</h1> </div>
     <div>
         <input class="login__input" type="email" name="email" placeholder="Почта">
         <input class="login__input" type="text" name="login" placeholder="Логин">

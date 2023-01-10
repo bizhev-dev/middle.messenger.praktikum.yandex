@@ -1,7 +1,6 @@
 export default
-`<form class="login">
-
-    <div class="login__header">Вход</div>
+`<form class="form login">
+    <div class="login__header"><h1>Вход</h1></div>
     <div class="login__inputs">
         <input type="text" name="login" placeholder="Логин">
         <input type="password"  name="password" placeholder="Пароль">
