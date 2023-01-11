@@ -11,7 +11,7 @@ export default
         <input class="login__input" type="password"  name="password" placeholder="Пароль (еще раз)">
     </div>
     <div class="login__actions">
-        <button>Sign up</button>
+        <button type = "submit">Sign up</button>
         <button>Sign in</button>
     </div>
 </form>`

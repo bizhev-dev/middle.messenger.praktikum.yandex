@@ -6,7 +6,7 @@ export default
         <input type="password"  name="password" placeholder="Пароль">
     </div>
     <div class="login__actions">
-        <button>Sign in</button>
+        <button type = "submit">Sign in</button>
         <button>Sign up</button>
     </div>
 </form>`

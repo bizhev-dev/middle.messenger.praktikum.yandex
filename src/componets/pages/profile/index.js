@@ -1,5 +1,5 @@
 import tpl from './_partials/tpl'
+import avatarEmpty from './_partials/avatar_empty.png'
 export default (props) => {
-    console.log({ tpl, props });
-    return tpl;
+    return tpl.replace('{{avatarEmpty}}', avatarEmpty);
 };
