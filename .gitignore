@@ -1,1 +1,6 @@
 /.idea
+/build
+/dist
+/.parcel-cache
+/node_modules
+/*.sh

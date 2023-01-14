@@ -1,0 +1,11 @@
+.login {
+  max-width: 340px;
+  background: #FFFFFF;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+  margin: auto;
+  padding: 20pt 5pt;
+    &__header{
+     font-weight: bold;
+    }
+}

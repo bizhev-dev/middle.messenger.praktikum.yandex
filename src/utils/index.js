@@ -1,0 +1,1 @@
+export { getTagRoute } from './browser';

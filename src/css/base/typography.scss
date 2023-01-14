@@ -1,0 +1,17 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5 {
+  font-family: cursive;
+  font-weight: normal;
+  transition: opacity 0.6s, transform 0.6s;
+
+  &[data-inview] {
+    opacity: 0;
+    transform: translateY(10px);
+
+    &.view-in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
